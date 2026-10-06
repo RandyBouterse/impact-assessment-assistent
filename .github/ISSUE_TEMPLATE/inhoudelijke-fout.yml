@@ -1,0 +1,43 @@
+name: Juridische of inhoudelijke fout
+description: Een onjuiste of verouderde regel, datum, bron of uitleg.
+labels: ["inhoud"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Deel nooit persoonsgegevens of vertrouwelijke informatie in een issue.** Een issue is openbaar. Anonimiseer voorbeelden en noem geen namen van mensen, klanten of projecten.
+  - type: input
+    id: bestand
+    attributes:
+      label: Welk bestand en welk onderdeel?
+      placeholder: "references/aanvullende-toetsen.md, onderdeel A6 Tijdlijn"
+    validations:
+      required: true
+  - type: textarea
+    id: wat
+    attributes:
+      label: Wat klopt er niet?
+      description: Citeer de regel zoals hij nu staat.
+    validations:
+      required: true
+  - type: textarea
+    id: juist
+    attributes:
+      label: Wat zou het moeten zijn?
+    validations:
+      required: true
+  - type: input
+    id: bron
+    attributes:
+      label: Bron
+      description: Link naar de wettekst, het beleidsdocument of de uitspraak.
+      placeholder: "https://wetten.overheid.nl/..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Controle
+      options:
+        - label: Er staan geen persoonsgegevens of vertrouwelijke informatie in dit issue.
+          required: true

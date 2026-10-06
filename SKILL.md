@@ -4,7 +4,7 @@ description: Begeleidt medewerkers in heldere, eenvoudige taal bij het voorberei
 license: CC-BY-4.0
 metadata:
   author: Randy Bouterse
-  version: "1.0.0"
+  version: "1.0.1"
   taal: nl
 ---
 

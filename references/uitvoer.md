@@ -1,5 +1,7 @@
 # Uitvoer
 
+Laatst inhoudelijk gecontroleerd: 6 oktober 2026, tegen artikel 35 lid 7 en artikel 36 AVG en de indeling van het Model DPIA Rijksdienst (augustus 2026).
+
 In fase 5 lever je vijf onderdelen op. Schrijf in gewone taal, behalve waar een juridische term nodig is. Zet **één keer**, bovenaan de hele oplevering:
 
 > Concept, opgesteld met hulp van een AI-assistent op [datum]. Dit is geen juridisch oordeel. Laat het beoordelen door [de beoordelaar uit fase 0, bijvoorbeeld de FG of privacyjurist].

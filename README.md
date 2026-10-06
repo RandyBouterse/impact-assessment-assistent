@@ -6,6 +6,17 @@ Gemaakt door **Randy Bouterse**. Gelicenseerd onder [CC BY 4.0](LICENSE).
 
 > Bedoeld als hulpmiddel dat juridische en privacyafdelingen inzetten binnen hun eigen organisatie: medewerkers bereiden het assessment voor, de jurist, FG of privacy officer beoordeelt de uitvoer. De uitvoer is daarom altijd een concept. Zie de [disclaimer](DISCLAIMER.md).
 
+![Zo werkt het: het gesprek in zes stappen, de technische werking in je eigen AI-omgeving, aanpassen per organisatie, en geen gegevens naar de maker of andere organisaties](docs/zo-werkt-het.svg)
+
+## Privacy: draait in je eigen AI-omgeving
+
+De assistent bestaat alleen uit tekstbestanden. Er is geen server, account, database of datakoppeling van de maker.
+
+- Gesprekken, antwoorden en uploads gaan **niet naar de maker** en **niet naar andere organisaties** die de assistent gebruiken.
+- Je aanpassingen, zoals het organisatieprofiel en een eigen format, blijven in je eigen kopie.
+- Alleen de AI-dienst die je organisatie zelf kiest, verwerkt het gesprek. Gebruik daarom een goedgekeurd zakelijk account waarbij gegevens niet worden gebruikt om modellen te trainen.
+- Feedback delen kan via een GitHub-issue, maar alleen als je dat zelf doet.
+
 ## Waarom
 
 Juridische en privacyafdelingen worden vaak gezien als de partij die aan het eind van een project "nee" zegt. Medewerkers vinden een DPIA-formulier ingewikkeld, en juristen krijgen formulieren terug met vage antwoorden. Deze assistent helpt aan het begin van een project:
@@ -45,12 +56,14 @@ Juridische en privacyafdelingen worden vaak gezien als de partij die aan het ein
 
 De assistent volgt de open standaard **Agent Skills** (een map met een `SKILL.md`-bestand). Menu's van platforms veranderen regelmatig; controleer bij twijfel de documentatie van je platform.
 
-Maak een zip-bestand van de map `impact-assessment-assistent`, met `SKILL.md` direct in de bovenste laag van de zip (niet in een extra submap).
+**Kant-en-klare zip:** download `impact-assessment-assistent.zip` bij de nieuwste [release](https://github.com/RandyBouterse/impact-assessment-assistent/releases/latest). `SKILL.md` staat daarin al in de bovenste laag, zoals de platforms verwachten.
+
+**Zelf een zip maken** (bijvoorbeeld na eigen aanpassingen): zip de inhoud van de repository, niet de map zelf, zodat `SKILL.md` in de bovenste laag staat.
 
 | Platform | Hoe | Opmerking |
 |---|---|---|
 | **Claude** (claude.ai) | Instellingen, onderdeel Skills, zip uploaden | Betaalde abonnementen |
-| **Claude Code** | Map plaatsen in `~/.claude/skills/` of `.claude/skills/` in je project | |
+| **Claude Code** | `git clone https://github.com/RandyBouterse/impact-assessment-assistent.git ~/.claude/skills/impact-assessment-assistent`, of dezelfde map in `.claude/skills/` van je project | |
 | **ChatGPT** | Skills, Create, Upload from your computer | Business, Enterprise, Edu en Healthcare; beheerders bepalen of uploaden is toegestaan |
 | **Microsoft Copilot Studio** | Skill toevoegen via upload van de zip | Preview sinds juli 2026; gedrag kan nog veranderen |
 | **Gemini** | Skill uploaden als map of zip | Stand oktober 2026: alleen persoonlijke Google-accounts, Workspace nog niet |
@@ -84,9 +97,14 @@ impact-assessment-assistent/
   organisatie/                 in te vullen per organisatie
   prompt-versie/               voor platforms zonder skills
   tests/testcasussen.md        tien casussen met verwachte uitkomst
+  docs/zo-werkt-het.svg        afbeelding: gebruik, werking, aanpassen, privacy
+  scripts/controleer.py        controles bij elke wijziging
+  .github/                     automatische controle, release-zip, issueformulieren
 ```
 
 ## Testen
+
+`python3 scripts/controleer.py` controleert of de promptversie onder de 8.000 tekens blijft, of elk referentiebestand een controledatum heeft en of de verwijzingen in `SKILL.md` kloppen. GitHub draait deze controle automatisch bij elke pull request.
 
 [`tests/testcasussen.md`](tests/testcasussen.md) bevat tien casussen, van een gemeentelijke AI-score tot een eenvoudige roosterspreadsheet, met de verwachte assessmentkaart en het gedrag dat je moet zien. Gebruik ze na elke wijziging en in elk nieuw platform.
 
@@ -94,17 +112,17 @@ impact-assessment-assistent/
 
 - [AVG, Verordening (EU) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj/nld)
 - [AI Act, Verordening (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/nld), zoals gewijzigd door de [Digitale omnibus inzake AI, Verordening (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/nld)
-- [Model DPIA Rijksdienst](https://www.kcbr.nl/) (Kenniscentrum Bedrijfsvoering Rijk)
+- [Model DPIA Rijksdienst, augustus 2026](https://www.kcbr.nl/sites/default/files/2026-08/088_T1_20260818%20Model%20DPIA%20Rijksdienst.pdf) (Kenniscentrum Bedrijfsvoering Rijk)
 - [Impact Assessment Mensenrechten en Algoritmes, versie februari 2026](https://www.rijksoverheid.nl/documenten/rapporten/2026/02/16/impact-assessment-mensenrechten-en-algoritmes)
 - [Herziening rijksbreed cloudbeleid 2026](https://www.tweedekamer.nl/downloads/document?id=2026D35295)
 - EDPB-richtsnoeren over DPIA's (WP248) en de lijst van de Autoriteit Persoonsgegevens
-- BIO2 (september 2025), Cyberbeveiligingswet (van kracht sinds 15 augustus 2026), Wet op de ondernemingsraden
+- [BIO2 versie 1.3](https://zoek.officielebekendmakingen.nl/stcrt-2026-7416.html) (9 januari 2026, Staatscourant 2026, 7416), Cyberbeveiligingswet (van kracht sinds 15 augustus 2026), Wet op de ondernemingsraden
 
 Elk referentiebestand vermeldt wanneer en tegen welke bronnen het voor het laatst inhoudelijk is gecontroleerd.
 
 ## Bijdragen
 
-Verbeteringen zijn welkom, vooral van FG's, privacyjuristen, CISO's en mensen die de assistent in de praktijk gebruiken. Zie je een juridische fout of een verouderde regel? Open een issue met:
+Verbeteringen zijn welkom, vooral van FG's, privacyjuristen, CISO's en mensen die de assistent in de praktijk gebruiken. Zie je een juridische fout of een verouderde regel? [Open een issue](https://github.com/RandyBouterse/impact-assessment-assistent/issues/new/choose); het formulier vraagt om:
 
 - wat er mis ging of beter kan
 - indien mogelijk een (geanonimiseerd) voorbeeld van het gesprek

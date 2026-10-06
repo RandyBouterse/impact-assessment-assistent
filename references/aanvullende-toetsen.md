@@ -1,6 +1,6 @@
 # Aanvullende toetsen
 
-Laatst inhoudelijk gecontroleerd: 6 oktober 2026, tegen de brontekst van de AI Act (Verordening (EU) 2024/1689) zoals gewijzigd door de Digitale omnibus inzake AI (Verordening (EU) 2026/1744, in werking sinds 27 juli 2026) en de Herziening rijksbreed cloudbeleid 2026 (3 juli 2026). Overige punten (Cyberbeveiligingswet, BIO2, WOR) op basis van openbare bronnen; laat die bij twijfel controleren.
+Laatst inhoudelijk gecontroleerd: 6 oktober 2026, tegen de brontekst van de AI Act (Verordening (EU) 2024/1689) zoals gewijzigd door de Digitale omnibus inzake AI (Verordening (EU) 2026/1744, in werking sinds 27 juli 2026) de Herziening rijksbreed cloudbeleid 2026 (3 juli 2026) en de BIO2 versie 1.3 (Staatscourant 2026, 7416). Overige punten (Cyberbeveiligingswet, WOR) op basis van openbare bronnen; laat die bij twijfel controleren.
 
 Gebruik deze module in fase 3 voor de onderdelen die op de assessmentkaart staan. Stel ook hier één vraag tegelijk, in gewone taal. Je verzamelt feiten; de juridische conclusie is aan de jurist.
 
@@ -215,7 +215,7 @@ Het rijksbrede beleid is geen plicht, maar wel een goede leidraad. Het EU Cloud 
 ## E. Informatiebeveiliging
 
 - **BIV-classificatie**: hoe belangrijk zijn beschikbaarheid, integriteit en vertrouwelijkheid? Dit bepaalt de maatregelen.
-- **Overheid**: de BIO2 (vastgesteld in september 2025, gebaseerd op ISO 27001 en 27002) is het normenkader, met een risicogestuurde aanpak. Vraag de CISO welke eisen voor deze toepassing gelden.
+- **Overheid**: de BIO2 is het normenkader, gebaseerd op ISO 27001 en 27002. Geldend is versie 1.3 van 9 januari 2026, voor het Rijk vastgesteld met de circulaire in de Staatscourant van 5 maart 2026 (nr. 7416). De BIO2 werkt risicogestuurd: de drie basisbeveiligingsniveaus (BBN's) van de oude BIO zijn vervallen. Volgens de circulaire verwijst de ministeriële regeling bij de Cyberbeveiligingswet voor de zorgplicht rechtstreeks naar deze versie. Vraag de CISO welke eisen voor deze toepassing gelden.
 - **Cyberbeveiligingswet** (van kracht sinds 15 augustus 2026): essentiële en belangrijke entiteiten moeten zich registreren, passende maatregelen nemen voor risicobeheer, significante incidenten melden en hun bestuur verantwoordelijk maken. Vraag of de organisatie hieronder valt; zo ja, dan is de leverancier onderdeel van de toeleveringsketen die beoordeeld moet worden.
 
 Vragen:

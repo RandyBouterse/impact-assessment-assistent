@@ -1,5 +1,19 @@
 # Wijzigingen
 
+## 1.0.1 (oktober 2026)
+
+- Afbeelding "zo werkt het" in de README: gebruik, technische werking, aanpassen per organisatie en privacy.
+- Privacysectie in de README: de assistent draait in de eigen AI-omgeving; niets gaat naar de maker of andere organisaties.
+- Kant-en-klare zip bij elke release, en een installatie in één regel voor Claude Code.
+- Alle referentiebestanden vermelden nu wanneer en waartegen ze zijn gecontroleerd.
+- Promptversie ingekort tot ruim onder de 8.000 tekens, zodat er ruimte is voor correcties.
+- Automatische controle (`scripts/controleer.py`) bij elke pull request.
+- Issueformulieren voor inhoudelijke fouten en verbeteringen.
+- Exitplan: "getoetst" in plaats van "getest", zoals in het rijksbrede cloudbeleid.
+- Pseudonimisering genuanceerd na het arrest EDPS/SRB (C-413/23 P, 4 september 2025).
+- Directe link naar het Model DPIA Rijksdienst van augustus 2026.
+- BIO2 bijgewerkt naar versie 1.3 (9 januari 2026, Staatscourant 2026, 7416): risicogestuurd zonder basisbeveiligingsniveaus, en de koppeling met de zorgplicht uit de Cyberbeveiligingswet.
+
 ## 1.0.0 (oktober 2026)
 
 Eerste publieke versie.

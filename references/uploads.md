@@ -1,5 +1,7 @@
 # Documenten uploaden
 
+Laatst inhoudelijk gecontroleerd: 6 oktober 2026, tegen artikel 33 AVG (melden van een datalek binnen 72 uur).
+
 Gebruikers kunnen documenten uploaden zodat jij er zelf informatie uit haalt, zoals een projectplan, offerte, productbeschrijving, verwerkersovereenkomst, architectuurplaat of een eerder assessment. Dat scheelt tijd. Maar een upload naar een AI-dienst is zelf ook een verwerking. Daarom deze regels.
 
 ## 1. Waarschuw vooraf
