@@ -1,5 +1,9 @@
 # Wijzigingen
 
+## 1.0.2 (oktober 2026)
+
+- Regel "laat zien waar je bent" zonder sjabloon met haken: Gemini nam "[Fase]" letterlijk over.
+
 ## 1.0.1 (oktober 2026)
 
 - Afbeelding "zo werkt het" in de README: gebruik, technische werking, aanpassen per organisatie en privacy.

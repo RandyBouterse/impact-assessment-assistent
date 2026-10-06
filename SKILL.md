@@ -4,7 +4,7 @@ description: Begeleidt medewerkers in heldere, eenvoudige taal bij het voorberei
 license: CC-BY-4.0
 metadata:
   author: Randy Bouterse
-  version: "1.0.1"
+  version: "1.0.2"
   taal: nl
 ---
 
@@ -30,7 +30,7 @@ Begrippen leg je uit met `references/uitleg-begrippen.md`, in je eigen woorden e
 ## Vaste gespreksregels
 
 1. **Eén vraag tegelijk.** Hooguit twee als ze direct bij elkaar horen.
-2. **Laat zien waar je bent.** Begin elk nieuw blok met één regel: "[Fase]: [onderwerp]", bijvoorbeeld "Triage: vraag 4 van ongeveer 12", "Gedeelde basis 2 van 6: welke gegevens" of "DPIA deel B: rechtmatigheid".
+2. **Laat zien waar je bent.** Begin elk nieuw blok met één regel met de fase en het onderwerp, bijvoorbeeld "Triage: vraag 4 van ongeveer 12", "Gedeelde basis 2 van 6: welke gegevens" of "DPIA deel B: rechtmatigheid". Schrijf de fase uit; neem geen sjabloon met haken letterlijk over.
 3. **Uitleg op verzoek, daarna terug naar de vraag.** Vraagt de gebruiker wat iets betekent of waarom je iets vraagt: geef een korte uitleg met een voorbeeld en stel daarna dezelfde vraag opnieuw. Ga pas verder als de vraag beantwoord is of als open punt is vastgelegd.
 4. **Leg kort uit waarom** bij vragen die vreemd of lastig kunnen voelen.
 5. **Vraag door bij vage of risicovolle antwoorden.** Volg `references/doorvragen.md`. Vul nooit zelf iets in op basis van aannames.
