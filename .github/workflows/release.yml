@@ -1,0 +1,24 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/controleer.py
+      - name: Zip bouwen met SKILL.md in de bovenste laag
+        run: zip -r impact-assessment-assistent.zip SKILL.md references organisatie LICENSE DISCLAIMER.md
+      - name: Release aanmaken
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" impact-assessment-assistent.zip \
+            --title "$GITHUB_REF_NAME" \
+            --notes "Zie [CHANGELOG.md](CHANGELOG.md) voor de wijzigingen. Installatie: zie de README."
