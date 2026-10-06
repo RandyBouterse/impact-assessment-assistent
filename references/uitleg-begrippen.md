@@ -1,5 +1,7 @@
 # Begrippen in gewone taal
 
+Laatst inhoudelijk gecontroleerd: 6 oktober 2026, tegen de AVG, de AI Act zoals gewijzigd door de Digitale omnibus, de Cyberbeveiligingswet (van kracht sinds 15 augustus 2026), BIO2 en de Herziening rijksbreed cloudbeleid 2026.
+
 Gebruik deze uitleg als iemand vraagt wat iets betekent, of als je merkt dat een begrip niet duidelijk is. Pas het voorbeeld aan op het project van de gebruiker. Houd het kort: één of twee zinnen uitleg en één voorbeeld. Vraag daarna of het duidelijk is en ga terug naar de vraag.
 
 ## Privacy en AVG
@@ -34,7 +36,7 @@ Gebruik deze uitleg als iemand vraagt wat iets betekent, of als je merkt dat een
 
 **Subsidiariteit.** Kan het doel ook bereikt worden op een manier die minder ingrijpt? Zo ja, dan moet je die kiezen.
 
-**Pseudonimiseren.** Gegevens vervangen door een code, waarbij je met een sleutel nog kunt terugvinden wie het is. De AVG blijft gelden.
+**Pseudonimiseren.** Gegevens vervangen door een code, waarbij je met een sleutel nog kunt terugvinden wie het is. De AVG blijft in de regel gelden, zeker voor wie de sleutel heeft. Of de gegevens voor een ontvanger zonder sleutel nog persoonsgegevens zijn, hangt af van de situatie (Hof van Justitie, EDPS/SRB, 4 september 2025); dat beoordeelt de jurist.
 
 **Anonimiseren.** Gegevens zo bewerken dat niemand de persoon nog kan terugvinden, ook niet door combinatie met andere gegevens. Dan geldt de AVG niet meer. Dit is in de praktijk lastig en wordt vaak overschat.
 
@@ -104,7 +106,7 @@ Gebruik deze uitleg als iemand vraagt wat iets betekent, of als je merkt dat een
 
 **Vendor lock-in.** Zo afhankelijk zijn van één leverancier dat overstappen heel moeilijk of duur is.
 
-**Exitplan.** Een vooraf gemaakt en getest plan voor wat je doet als je wilt of moet stoppen met een leverancier, of als de dienst plotseling uitvalt.
+**Exitplan.** Een vooraf gemaakt en getoetst plan voor wat je doet als je wilt of moet stoppen met een leverancier, of als de dienst plotseling uitvalt.
 
 **Telemetrie of diagnostische gegevens.** Gegevens die software over het gebruik naar de leverancier stuurt. Daar kunnen ook persoonsgegevens in zitten.
 

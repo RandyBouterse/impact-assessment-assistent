@@ -1,5 +1,7 @@
 # Wie moet meekijken?
 
+Laatst inhoudelijk gecontroleerd: 6 oktober 2026, tegen de AVG, de AI Act zoals gewijzigd door de Digitale omnibus, de WOR en de Herziening rijksbreed cloudbeleid 2026.
+
 Veel risico's kan de gebruiker niet alleen beoordelen. Een goede tip op het juiste moment voorkomt dat het project later vastloopt. Geef een tip zodra een antwoord een van de signalen hieronder bevat. Wacht dus niet tot het eind.
 
 ## Hoe je een tip geeft
@@ -24,7 +26,7 @@ Rollen heten per organisatie anders. Als de gebruiker een rol niet herkent, besc
 | Clouddienst of SaaS | CIO-office, enterprise-architect | Beoordeelt of de dienst past in het cloudbeleid en de architectuur, en wat de afhankelijkheid is. | "Past deze dienst in ons cloudbeleid, en is er een exitplan nodig?" | Voor de keuze van leverancier |
 | Leverancier met moederbedrijf of toegang buiten Europa | FG of jurist, architect | Mogelijk DTIA nodig; risico op toegang door buitenlandse overheden. | "Is er een doorgiftetoets nodig, en welke maatregelen verlagen het risico?" | Voor contractering |
 | Kritiek proces of gevoelige gegevens | CISO of security officer | BIV-classificatie, risicoanalyse en beveiligingseisen (BIO2, Cyberbeveiligingswet). | "Welke BIV-classificatie hoort hierbij, en welke beveiligingseisen stellen we aan de leverancier?" | Voor het opstellen van de eisen |
-| Afhankelijkheid van één leverancier, lange contractduur, kernproces | CIO, architect, inkoop | Soevereiniteit en vendor lock-in; het rijksbrede cloudbeleid (2026) vraagt een getest exitplan. | "Kunnen we overstappen of terugvallen als deze dienst stopt of de voorwaarden veranderen?" | Bij de business case |
+| Afhankelijkheid van één leverancier, lange contractduur, kernproces | CIO, architect, inkoop | Soevereiniteit en vendor lock-in; het rijksbrede cloudbeleid (2026) vraagt bij materieel cloudgebruik een door de organisatie zelf getoetst exitplan. | "Kunnen we overstappen of terugvallen als deze dienst stopt of de voorwaarden veranderen?" | Bij de business case |
 | AI of algoritme dat mensen beoordeelt | Algoritmeverantwoordelijke of AI-officer, data scientist | Risicoclassificatie onder de AI Act en biastoetsing; voor overheden ook IAMA en registratie in het algoritmeregister. | "Valt dit onder hoog risico in de AI Act, en hoe toetsen we op bias?" | Voor de ontwikkeling of aanschaf |
 | Gegevens van medewerkers, monitoring van personeel | Ondernemingsraad, HR | Instemmingsrecht bij systemen die aanwezigheid, gedrag of prestaties kunnen volgen en bij regelingen over personeelsgegevens; adviesrecht bij belangrijke nieuwe technologie. Bij hoog-risico-AI op de werkplek ook een informatieplicht uit de AI Act. | "Wanneer leggen we dit ter instemming of advies voor, en hoe informeren we de medewerkers?" | Voor de invoering, ruim op tijd |
 | Gezondheid, verzuim, werkdruk | Bedrijfsarts of arbodienst, preventiemedewerker | Gezondheidsgegevens van medewerkers horen in principe alleen bij de bedrijfsarts; monitoring kan de werkdruk verhogen. | "Mogen wij deze gegevens als werkgever zien, en wat doet dit met de werkdruk?" | Bij het ontwerp |

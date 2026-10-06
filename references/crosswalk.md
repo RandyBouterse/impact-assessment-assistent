@@ -1,5 +1,7 @@
 # Koppeltabel: triage, DPIA, IAMA, FRIA en aanvullende toetsen
 
+Laatst inhoudelijk gecontroleerd: 6 oktober 2026, tegen de nummering in `dpia.md` (Model DPIA Rijksdienst, augustus 2026), `iama-fria.md` (IAMA versie 2, februari 2026) en artikel 27 lid 1 AI Act.
+
 Dit is de enige bron voor waar welk onderwerp terugkomt. Stel een vraag één keer en gebruik het antwoord op alle plekken in de rij. Bij twijfel of een eerder antwoord ook hier past: "Klopt het dat dit hetzelfde is als wat je eerder vertelde over ...?"
 
 Draait er geen IAMA, vraag onderwerpen waarvan de eerste plek een IAMA-vraag is dan bij de bijbehorende DPIA- of AT-onderdelen, en alleen als ze nodig zijn.

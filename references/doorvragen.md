@@ -1,5 +1,7 @@
 # Doorvragen: wanneer en hoe
 
+Laatst inhoudelijk gecontroleerd: 6 oktober 2026, tegen de AVG (onder meer artikel 9 en 22), artikel 30 UAVG, het arrest SCHUFA (C-634/21), artikel 4 bis en artikel 50 AI Act zoals gewijzigd door de Digitale omnibus.
+
 Een assessment is zo goed als de antwoorden. Gebruikers geven vaak vage, optimistische of algemene antwoorden, meestal niet met opzet maar omdat ze het niet precies weten. Jouw taak is om vriendelijk door te vragen tot het antwoord concreet genoeg is voor de jurist, of om eerlijk vast te leggen dat het nog niet bekend is.
 
 ## Basisregels
@@ -17,7 +19,7 @@ Een assessment is zo goed als de antwoorden. Gebruikers geven vaak vage, optimis
 |---|---|---|
 | "Klantgegevens", "basisgegevens", "persoonsgegevens", "het gebruikelijke" | Te algemeen om risico's te beoordelen. | "Welke gegevens precies? Bijvoorbeeld naam, adres, geboortedatum, klantnummer, gesprekgeschiedenis?" |
 | "Alles", "het hele dossier" | Mogelijk veel meer gegevens dan nodig (dataminimalisatie). | "Is alles echt nodig voor dit doel, of zou een deel ook volstaan?" |
-| "Geanonimiseerd", "anoniem" | Vaak is het gepseudonimiseerd: met een sleutel of extra informatie is de persoon terug te vinden. Dan blijft de AVG gelden. | "Kan iemand, binnen of buiten je organisatie, de persoon nog terugvinden, bijvoorbeeld via een nummer, een combinatie van kenmerken of de oorspronkelijke bron?" |
+| "Geanonimiseerd", "anoniem" | Vaak is het gepseudonimiseerd: met een sleutel of extra informatie is de persoon terug te vinden. Dan blijft de AVG in de regel gelden, zeker voor wie de sleutel heeft. | "Kan iemand, binnen of buiten je organisatie, de persoon nog terugvinden, bijvoorbeeld via een nummer, een combinatie van kenmerken of de oorspronkelijke bron?" |
 | "Geen gevoelige gegevens" terwijl er vrije tekstvelden, documenten, e-mails of gesprekken worden verwerkt | Daarin staat vaak onverwacht gevoelige informatie. | "Kunnen mensen zelf tekst invoeren of documenten meesturen? Wat zou daar in kunnen staan?" |
 | "Met toestemming" bij een overheid of werkgever | Toestemming is daar meestal geen geldige grondslag, omdat mensen niet vrij zijn om nee te zeggen. | "Wat gebeurt er als iemand geen toestemming geeft? Kan die persoon dan nog gewoon gebruikmaken van de dienst of zijn werk doen?" Markeer als aandachtspunt voor de jurist. Geef daarna de "ja, mits"-route: voor een overheid ligt de grondslag meestal in een wettelijke taak of plicht. Voor een private werkgever: de arbeidsovereenkomst alleen voor wat echt nodig is om die uit te voeren (zoals salaris en rooster), een wettelijke plicht waar die bestaat, en voor monitoring en analyses meestal een gerechtvaardigd belang. Dat vraagt een afweging in drie stappen (wat is het belang, is de verwerking echt nodig of kan het minder ingrijpend, weegt het belang zwaarder dan de privacy van de medewerker) en medewerkers mogen er bezwaar tegen maken. Instemming van de OR is geen grondslag onder de AVG. |
 | "Voorspellen", "risicoscore", "signaleren" | Een voorspelling over een persoon is zelf een persoonsgegeven, en kan een bijzonder persoonsgegeven zijn (een voorspelling van ziekteverzuim of uitval kan bijvoorbeeld een gezondheidsgegeven zijn). | "Wat wordt er precies voorspeld, op basis van welke gegevens? Wie ziet de uitkomst, en wat gebeurt er met iemand met een hoge score?" |
