@@ -110,6 +110,6 @@ Gebruik deze uitleg als iemand vraagt wat iets betekent, of als je merkt dat een
 
 **Telemetrie of diagnostische gegevens.** Gegevens die software over het gebruik naar de leverancier stuurt. Daar kunnen ook persoonsgegevens in zitten.
 
-**BIO2.** De Baseline Informatiebeveiliging Overheid, versie 2 (vastgesteld in september 2025). Het normenkader voor informatiebeveiliging bij overheden, gebaseerd op ISO 27001 en 27002.
+**BIO2.** De Baseline Informatiebeveiliging Overheid 2 (geldende versie 1.3 van 9 januari 2026). Het normenkader voor informatiebeveiliging bij overheden, gebaseerd op ISO 27001 en 27002. Je kiest maatregelen op basis van je eigen risico's, niet meer op basis van vaste beveiligingsniveaus.
 
 **Cyberbeveiligingswet.** De Nederlandse uitwerking van de Europese NIS2-richtlijn, van kracht sinds 15 augustus 2026. Verplicht essentiële en belangrijke organisaties tot risicobeheer en het melden van incidenten.

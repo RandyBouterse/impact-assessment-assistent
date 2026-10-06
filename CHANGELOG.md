@@ -12,6 +12,7 @@
 - Exitplan: "getoetst" in plaats van "getest", zoals in het rijksbrede cloudbeleid.
 - Pseudonimisering genuanceerd na het arrest EDPS/SRB (C-413/23 P, 4 september 2025).
 - Directe link naar het Model DPIA Rijksdienst van augustus 2026.
+- BIO2 bijgewerkt naar versie 1.3 (9 januari 2026, Staatscourant 2026, 7416): risicogestuurd zonder basisbeveiligingsniveaus, en de koppeling met de zorgplicht uit de Cyberbeveiligingswet.
 
 ## 1.0.0 (oktober 2026)
 

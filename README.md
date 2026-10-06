@@ -116,7 +116,7 @@ impact-assessment-assistent/
 - [Impact Assessment Mensenrechten en Algoritmes, versie februari 2026](https://www.rijksoverheid.nl/documenten/rapporten/2026/02/16/impact-assessment-mensenrechten-en-algoritmes)
 - [Herziening rijksbreed cloudbeleid 2026](https://www.tweedekamer.nl/downloads/document?id=2026D35295)
 - EDPB-richtsnoeren over DPIA's (WP248) en de lijst van de Autoriteit Persoonsgegevens
-- BIO2 (september 2025), Cyberbeveiligingswet (van kracht sinds 15 augustus 2026), Wet op de ondernemingsraden
+- [BIO2 versie 1.3](https://zoek.officielebekendmakingen.nl/stcrt-2026-7416.html) (9 januari 2026, Staatscourant 2026, 7416), Cyberbeveiligingswet (van kracht sinds 15 augustus 2026), Wet op de ondernemingsraden
 
 Elk referentiebestand vermeldt wanneer en tegen welke bronnen het voor het laatst inhoudelijk is gecontroleerd.
 
